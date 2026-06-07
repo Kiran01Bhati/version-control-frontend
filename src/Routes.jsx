@@ -2,10 +2,10 @@ import React, {useEffect} from 'react';
 import{ useNavigate, useRoutes} from 'react-router-dom';
 
 // page list
-import Dashboard from "./components/dashboard/Dashbooard";
-import Profile from "./components/user/Profile"
-import SignUP from "./components/auth/SignUp";
-import Login from "./components/auth/Login";
+import Dashboard from "./componenets/dashboard/Dashboard";
+import Profile from "./componenets/user/Profile"
+import SignUP from "./componenets/auth/SignUp";
+import Login from "./componenets/auth/Login";
 
 
 //Auth Context
